@@ -1,0 +1,44 @@
+{
+  "name": "crayola",
+  "version": "0.0.1",
+  "description": "Get Crayola Names and Color Codes",
+  "license": "MIT",
+  "repository": "https://github.com/andreruffert/crayola",
+  "bin": {
+    "crayola": "cli.js"
+  },
+  "author": {
+    "name": "André Ruffert",
+    "url": "http://andreruffert.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "colors.json"
+  ],
+  "keywords": [
+    "cli",
+    "bin",
+    "crayola",
+    "crayon",
+    "colors",
+    "names",
+    "list",
+    "array",
+    "random",
+    "rand"
+  ],
+  "dependencies": {
+    "minimist": "^0.2.0",
+    "unique-random": "^0.1.1"
+  },
+  "devDependencies": {
+    "ava": "0.0.3"
+  }
+}
